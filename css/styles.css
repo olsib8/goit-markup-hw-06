@@ -404,7 +404,7 @@ ol {
 .modal-icon {
   position: absolute;
   left: 12px;
-  top: 29px;
+  top: 50%;
   fill: currentColor;
 }
 .button-send {
@@ -782,13 +782,15 @@ ol {
   color: var(--secondary-accent-color);
   background-color: var(--primary-accent-color);
 }
+.send-footer {
+  margin-left: 93px;
+}
 .small-footer-title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--third-text-color);
   margin-bottom: 20px;
-  margin-left: 93px;
 }
 .footer-form-label {
   font-weight: 400;
@@ -819,7 +821,6 @@ ol {
 }
 .footer-email-field {
   position: relative;
-  margin-left: 93px;
   display: flex;
 }
 .footer-button-send {
